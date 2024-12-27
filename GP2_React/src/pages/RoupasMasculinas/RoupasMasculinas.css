@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.top-section {
+    margin-bottom: 500px;
+    text-align: center;
+    padding: 0px;
+    
+    background-color: #8e44ad;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    gap: 20px;
+    margin: 0 -10px;
+    padding: 10px;
+}
+
+
+.product-card {
+    background: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.product-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 199, 199, 0.1);
+    width: 90%; 
+    max-height: 1600px;
+    height: auto; 
+    margin: 20px auto; 
+    overflow: auto;
+}
+
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    color: #000000;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: bold;
+}
+
+.product-price {
+    font-size: 1rem;
+    color:#672385;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.product-card {
+    margin: 30px;
+    max-width: 397px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: white;
+    padding: 100px;
+    border-radius: 8px;
+    max-width: 1000px;
+    display: flex;
+}
+
+.popup-image {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.popup-image.zoomed {
+    transform: scale(1.5); 
+}
+
+.popup-details {
+    position: relative;
+    flex: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.size-selection {
+    margin: 10px 0;
+}
+
+.size-buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.size-button {
+    padding: 15px 20px;
+    border: 2px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.size-button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+
+.buy-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 20px 80px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 280px;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+}
+
+.buy-button:hover {
+    background-color: #8e44ad;
+}
+
+/* botao de excluir, salvar pra eu colocar em todas as categorias */
+.popup-details input {
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px rgb(233, 195, 233);
+} 
+
+.botao-excluir {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -80px;
+    right: -40px;
+}
+
+
+
+
+
+
+
+
+
+
+.newsletter-container {
+    background-color: rgb(240, 240, 240);
+    padding: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: red; 
+    font-size: 0.9rem;
+    display: none;
+}
+
+.subscribe-button {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #8e44ad;
+}
+
+
+.whatsapp-container {
+    background-color: #000000;
+    padding: 10px;
+    position: fixed;
+    bottom: -13px;
+    left: 0; 
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.whatsapp-container h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.whatsapp-container p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #ffffff;
+}

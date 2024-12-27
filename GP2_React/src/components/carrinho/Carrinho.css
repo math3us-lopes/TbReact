@@ -1,0 +1,138 @@
+.box-carrinho {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 24rem;
+    height: calc(100vh - 12.6rem);
+    top: 8.7rem;
+    right: 0;
+    z-index: 999;
+    padding: 1rem;
+}
+
+.box-carrinho p {
+    color: white;
+    margin: 1rem 0 1rem;
+}
+
+.box-carrinho-produtos {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* filter: blur(8px); */
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    position: relative;
+    /* margin: 1.5rem; */
+}
+
+.box-carrinho-produtos-img {
+    width: 60%;
+}
+
+.box-carrinho-produtos-img img {
+    width: 100%;
+}
+
+.box-carrinho-produtos-img p {
+    font-size: 15px;
+}
+
+.box-carrinho-produtos p {
+    margin: 0;
+}
+
+.box-carrinho-produtos-bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.box-carrinho-produtos-bot input {
+    border-radius: 20px;
+    cursor: pointer;
+    width: fit-content;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box-carrinho-quantidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-carrinho-quantidade button {
+    width: 3rem;
+}
+
+.box-carrinho-aum-dim button{
+    cursor: pointer;
+    width: 2rem;
+}
+
+.carrinho-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.carrinho-actions p {
+    color: black;
+}
+
+.carrinho-actions button {
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.finalizar-button button {
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(199, 179, 179);
+    margin-bottom: 24px;
+}
+    
+.finalizar-compra-login {
+    list-style-type: none;
+    padding-left: 0;  
+}
+
+.finalizar-compra-link {
+    text-decoration: none; 
+    color: inherit;
+    font-size: 15px;
+}
+
+.box-valor-total {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    width: 6rem;
+    height: 3rem;
+    font-size: 14px;
+    text-align: center;
+}

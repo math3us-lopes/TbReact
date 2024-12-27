@@ -1,0 +1,415 @@
+{
+  "users": [
+    {
+      "id": "bfc1",
+      "nome": "Raphael",
+      "email": "rapha@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": "d02a",
+      "nome": "renan",
+      "email": "renan@email.com",
+      "senha": "654321"
+    },
+    {
+      "id": "5525",
+      "username": "Gabry",
+      "email": "joaogabrielgabry@gmail.com",
+      "senha": "12345"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "faba",
+      "nome": "Produto",
+      "imgurl": "http://",
+      "descrição": "descrição do produto",
+      "preco": 10,
+      "categoria": "alimento",
+      "quantidade": 1
+    },
+    {
+      "id": "faba",
+      "nome": "Produto",
+      "imgurl": "http://",
+      "descrição": "descrição do produto",
+      "preco": 10,
+      "categoria": "alimento",
+      "quantidade": 1
+    },
+    {
+      "id": "1",
+      "nome": "Camisa em Tricoline Acetinada com Gola Padre Branco",
+      "imgurl": "/src/Roupas-Categorias/Masculino/1.webp",
+      "descrição": "Camisa branca em tricoline acetinada com gola padre",
+      "preco": 79.90,
+      "categoria": "masculino",
+      "quantidade": 10
+    },
+    {
+      "id": "2",
+      "nome": "Bermuda Esportiva com Cordão Interno e Lettering Refletivo Azul Marinho",
+      "imgurl": "/src/Roupas-Categorias/Masculino/2.webp",
+      "descrição": "Bermuda esportiva azul marinho com cordão e detalhes refletivos",
+      "preco": 129.90,
+      "categoria": "masculino",
+      "quantidade": 15
+    },
+    {
+      "id": "3",
+      "nome": "Camiseta Polo Comfort em Algodão Peruano Preto",
+      "imgurl": "/src/Roupas-Categorias/Masculino/3.webp",
+      "descrição": "Camiseta polo preta em algodão peruano",
+      "preco": 299.90,
+      "categoria": "masculino",
+      "quantidade": 20
+    },
+    {
+      "id": "4",
+      "nome": "Bermuda em Microfibra com Cós Elástico e Estampa Floral de Girassol Preto",
+      "imgurl": "/src/Roupas-Categorias/Masculino/4.webp",
+      "descrição": "Bermuda preta em microfibra com estampa de girassol",
+      "preco": 149.90,
+      "categoria": "masculino",
+      "quantidade": 12
+    },
+    {
+      "id": "5",
+      "nome": "Camisa Comfort em Algodão com Estampa Xadrez e Manga Longa Azul/ Preto/ Off White",
+      "imgurl": "/src/Roupas-Categorias/Masculino/5.webp",
+      "descrição": "Camisa xadrez azul, preta e off white com manga longa",
+      "preco": 49.90,
+      "categoria": "masculino",
+      "quantidade": 10
+    },
+    {
+      "id": "6",
+      "nome": "Calça Loose em Jeans com Bolsos Azul",
+      "imgurl": "/src/Roupas-Categorias/Masculino/6.webp",
+      "descrição": "Calça jeans azul com estilo loose e bolsos",
+      "preco": 89.90,
+      "categoria": "masculino",
+      "quantidade": 8
+    },
+    {
+      "id": "7",
+      "nome": "Polo com Gola Lapela sem Botão e Textura Canelada Vermelho Vinho",
+      "imgurl": "/src/Roupas-Categorias/Masculino/7.webp",
+      "descrição": "Polo vermelha com gola lapela e textura canelada",
+      "preco": 159.90,
+      "categoria": "masculino",
+      "quantidade": 12
+    },
+    {
+      "id": "8",
+      "nome": "Calça Wide Alfaiataria com Cós Bege",
+      "imgurl": "/src/Roupas-Categorias/Masculino/8.webp",
+      "descrição": "Calça wide alfaiataria com cós bege",
+      "preco": 79.90,
+      "categoria": "masculino",
+      "quantidade": 6
+    },
+    {
+      "id": "9",
+      "nome": "Regata Regular Esportiva com Tecnologia Dry e Estampa Heat Print Verde",
+      "imgurl": "/src/Roupas-Categorias/Masculino/9.webp",
+      "descrição": "Regata esportiva verde com tecnologia dry e estampa heat print",
+      "preco": 99.90,
+      "categoria": "masculino",
+      "quantidade": 10
+    },
+    {
+      "id": "10",
+      "nome": "Casaco Básico em Moletom com Capuz e Zíper Frontal Preto",
+      "imgurl": "/src/Roupas-Categorias/Masculino/10.webp",
+      "descrição": "Casaco preto básico em moletom com capuz e zíper frontal",
+      "preco": 199.90,
+      "categoria": "masculino",
+      "quantidade": 5
+    },
+    {
+      "id": "11",
+      "nome": "Jardineira Infantil em Moletom com Estampa de Carros - Tam RN a 18 meses Azul",
+      "imgurl": "/src/Roupas-Categorias/Infantil/1.webp",
+      "descrição": "Jardineira Infantil em Moletom Azul com Estampa de Carros - Tam RN a 18 meses",
+      "preco": 79.90,
+      "categoria": "infantil",
+      "quantidade": 10
+    },
+    {
+      "id": "12",
+      "nome": "Body Infantil em Algodão com Estampa Bichinhos no Safári - Tam 0 a 18 meses Bege",
+      "imgurl": "/src/Roupas-Categorias/Infantil/2.webp",
+      "descrição": "Body Infantil em Algodão Bege com Estampa Bichinhos no Safári - Tam 0 a 18 meses Bege",
+      "preco": 39.90,
+      "categoria": "infantil",
+      "quantidade": 14
+    },
+    {
+      "id": "13",
+      "nome": "Jardineira Infantil em Moletom Estampa Bichinhos - Tam 0 a 18 meses Multicores",
+      "imgurl": "/src/Roupas-Categorias/Infantil/3.webp",
+      "descrição": "Jardineira Infantil em Moletom Multicores Estampa Bichinhos - Tam 0 a 18 meses ",
+      "preco": 79.90,
+      "categoria": "infantil",
+      "quantidade": 16
+    },
+    {
+      "id": "14",
+      "nome": "Camiseta Infantil com Estampa do Sonic e Máscara Interativa - Tam 4 a 12 Anos Azul",
+      "imgurl": "/src/Roupas-Categorias/Infantil/4.webp",
+      "descrição": "Camiseta Infantil Azul com Estampa do Sonic e Máscara Interativa",
+      "preco": 69.90,
+      "categoria": "infantil",
+      "quantidade": 18
+    },
+    {
+      "id": "15",
+      "nome": "Bermuda Infantil Preto em Sarja com Amarração - Tam 1 a 5 anos ",
+      "imgurl": "/src/Roupas-Categorias/Infantil/5.webp",
+      "descrição": "Bermuda Infantil em Sarja Preto com Amarração - Tam 1 a 5 anos",
+      "preco": 69.90,
+      "categoria": "infantil",
+      "quantidade": 18
+    },
+    {
+      "id": "16",
+      "nome": "Camiseta Comfort Infantil com Estampa de Capivaras - Tam 1 a 5 anos Verde",
+      "imgurl": "/src/Roupas-Categorias/Infantil/6.webp",
+      "descrição": "Camiseta Comfort Infantil Verde com Estampa de Capivaras - Tam 1 a 5 anos ",
+      "preco": 39.90,
+      "categoria": "infantil",
+      "quantidade": 15
+    },
+    {
+      "id": "17",
+      "nome": "Camiseta Infantil com Estampa de Folhagens e Animais - Tam 1 a 5 anos Branco",
+      "imgurl": "/src/Roupas-Categorias/Infantil/7.webp",
+      "descrição": "Camiseta Infantil Branco com Estampa de Folhagens e Animais - Tam 1 a 5 anos",
+      "preco": 39.90,
+      "categoria": "infantil",
+      "quantidade": 15
+    },
+    {
+      "id": "18",
+      "nome": "Camiseta Infantil Blocada em Algodão com Lettering Bordado - Tam 1 a 5 anos Verde/Bege",
+      "imgurl": "/src/Roupas-Categorias/Infantil/8.webp",
+      "descrição": "Camiseta Infantil Blocada em Algodão Verde/Bege com Lettering Bordado - Tam 1 a 5 anos",
+      "preco": 49.90,
+      "categoria": "infantil",
+      "quantidade": 13
+    },
+    {
+      "id": "19",
+      "nome": "Bermuda Infantil em Sarja com Amarração - Tam 1 a 5 anos",
+      "imgurl": "/src/Roupas-Categorias/Infantil/9.webp",
+      "descrição": "Bermuda Infantil em Sarja Bege com Amarração - Tam 1 a 5 anos",
+      "preco": 79.90,
+      "categoria": "infantil",
+      "quantidade": 16
+    },
+    {
+      "id": "20",
+      "nome": "Regata Infantil Branco Canelada com Bordado Stitch no Peito - Tam 5 a 14 Anos",
+      "imgurl": "/src/Roupas-Categorias/Infantil/10.webp",
+      "descrição": "Regata Infantil Canelada Branco com Bordado Stitch no Peito - Tam 5 a 14 Anos",
+      "preco": 49.90,
+      "categoria": "infantil",
+      "quantidade": 16
+    },
+    {
+      "id": "21",
+      "nome": "Camisa Alongada em Tricoline Listrado com Elástico no Punho Azul",
+      "imgurl": "/src/Roupas-Categorias/Feminino/1.webp",
+      "descrição": "Camisa de Algodão Listrada e Elástico no Punho Azul",
+      "preco": 59.90,
+      "categoria": "Feminino",
+      "quantidade": 20
+    },
+    {
+      "id": "22",
+      "nome": " Bermuda Reta em Jeans Denim com Bolsos Azul",
+      "imgurl": "/src/Roupas-Categorias/Feminino/2.webp",
+      "descrição": "Bermuda azul Jeans com Bolsos",
+      "preco": 44.90,
+      "categoria": "Feminino",
+      "quantidade": 13
+    },
+    {
+      "id": "23",
+      "nome": "Blusa de Alça em Viscose com Linho e Bordado Tropical Laranja",
+      "imgurl": "/src/Roupas-Categorias/Feminino/3.webp",
+      "descrição": "Blusa feita de Linho e Bordado Laranja",
+      "preco": 69.90,
+      "categoria": "Feminino",
+      "quantidade": 17
+    },
+    {
+      "id": "24",
+      "nome": "Vestido Curto em Viscose e Linho com Estampa com Amarração na Alça Preto",
+      "imgurl": "/src/Roupas-Categorias/Feminino/4.webp",
+      "descrição": "Vestido com Amarracao feito de Linho Estampado",
+      "preco": 94.90,
+      "categoria": "Feminino",
+      "quantidade": 22
+    },
+    {
+      "id": "25",
+      "nome": "Camiseta Alongada em Algodão com Lettering Barcelona Verde",
+      "imgurl": "/src/Roupas-Categorias/Feminino/5.webp",
+      "descrição": "Camiseta com Lettering Verde",
+      "preco": 34.90,
+      "categoria": "Feminino",
+      "quantidade": 15
+    },
+    {
+      "id": "26",
+      "nome": "Calça Cenoura Alfaiatada com Cintinho em Material Sintético Preto",
+      "imgurl": "/src/Roupas-Categorias/Feminino/6.webp",
+      "descrição": "Calça Alfaiatada em Material Sintético Preto",
+      "preco": 44.50,
+      "categoria": "Feminino",
+      "quantidade": 23
+    },
+    {
+      "id": "27",
+      "nome": "Blusa em Viscose com Decote V e Manga Curta Dobrada Azul",
+      "imgurl": "/src/Roupas-Categorias/Feminino/7.webp",
+      "descrição": "Blusa com decote V e Manga curta Azul",
+      "preco": 59.90,
+      "categoria": "Feminino",
+      "quantidade": 31
+    },
+    {
+      "id": "28",
+      "nome": "Vestido New Midi em Laise com Bordado no Busto Laranja",
+      "imgurl": "/src/Roupas-Categorias/Feminino/8.webp",
+      "descrição": "Vestido Bordado com Busto Laranja",
+      "preco": 115.90,
+      "categoria": "Feminino",
+      "quantidade": 8
+    },
+    {
+      "id": "29",
+      "nome": "Calça Cenoura em Alfaiataria com Detalhe de Botão na Barra Azul Escuro",
+      "imgurl": "/src/Roupas-Categorias/Feminino/9.webp",
+      "descrição": "Calça Alfaiataria com Detalhes e na Barra Azul Escuro",
+      "preco": 49.90,
+      "categoria": "Feminino",
+      "quantidade": 14
+    },
+    {
+      "id": "30",
+      "nome": "Blusa em Viscose com Recorte Oval nas Costas e Textura Canelada Preto",
+      "imgurl": "/src/Roupas-Categorias/Feminino/10.webp",
+      "descrição": "Blusa com Recorte Oval e e Textura Canelada Preto",
+      "preco": 59.90,
+      "categoria": "Feminino",
+      "quantidade": 31
+    },
+    {
+      "id": "31",
+      "nome": "Tênis Jogging Chunky com Detalhe em Renda e Laço em Pérola Branco",
+      "imgurl": "/src/Roupas-Categorias/Calcados/1.webp",
+      "descrição": "Tênis Jogging Chunky com Detalhe em Renda e Laço em Pérola Branco",
+      "preco": 210.90,
+      "categoria": "calcado",
+      "quantidade": 12
+    },
+    {
+      "id": "32",
+      "nome": "Tênis Casual com Textura e Sola Contrastante Preto",
+      "imgurl": "/src/Roupas-Categorias/Calcados/2.webp",
+      "descrição": "",
+      "preco": 210.90,
+      "categoria": "calcado",
+      "quantidade": 14
+    },
+    {
+      "id": "33",
+      "nome": "Tênis Street Cano Baixo com Recortes e Cadarço Preto",
+      "imgurl": "/src/Roupas-Categorias/Calcados/3.webp",
+      "descrição": "",
+      "preco": 340.99,
+      "categoria": "calcado",
+      "quantidade": 10
+    },
+    {
+      "id": "34",
+      "nome": "Sapato Scarpin com Tornozeleira de Brilhos Preto",
+      "imgurl": "/src/Roupas-Categorias/Calcados/4.webp",
+      "descrição": "",
+      "preco": 212.85,
+      "categoria": "calcado",
+      "quantidade": 12
+    },
+    {
+      "id": "35",
+      "nome": "Bota Cano Curto em Couro com Fivela Lateral Preto",
+      "imgurl": "/src/Roupas-Categorias/Calcados/5.webp",
+      "descrição": "",
+      "preco": 142.21,
+      "categoria": "calcado",
+      "quantidade": 7
+    },
+    {
+      "id": "36",
+      "nome": "Sandália com Tiras Finas e Bico Fino Vermelho",
+      "imgurl": "/src/Roupas-Categorias/Calcados/6.webp",
+      "descrição": "",
+      "preco": 99.90,
+      "categoria": "calcado",
+      "quantidade": 8
+    },
+    {
+      "id": "37",
+      "nome": "Bota Infantil Metalizada com Orelinhas de Coelhos - Tam 20 ao 27 Rosa",
+      "imgurl": "/src/Roupas-Categorias/Calcados/7.webp",
+      "descrição": "",
+      "preco": 102.80,
+      "categoria": "calcado",
+      "quantidade": 16
+    },
+    {
+      "id": "38",
+      "nome": "Tênis Abotinado Infantil com Fechamento por Velcro - Tam 21 ao 28 Marrom",
+      "imgurl": "/src/Roupas-Categorias/Calcados/8.webp",
+      "descrição": "Tênis Abotinado Infantil com Fechamento por Velcro - Tam 21 ao 28 Marrom",
+      "preco": 154.99,
+      "categoria": "calcado",
+      "quantidade": 17
+    },
+    {
+      "id": "39",
+      "nome": "Bota Infantil com LED na Sola - Tam 20 ao 30 Azul",
+      "imgurl": "/src/Roupas-Categorias/Calcados/9.webp",
+      "descrição": "Bota Infantil com LED na Sola - Tam 20 ao 30 Azul",
+      "preco": 122.90,
+      "categoria": "calcado",
+      "quantidade": 8
+    },
+    {
+      "id": "40",
+      "nome": "Tênis Infantil em PU com Plaquinha Metálica Molekinha - Tam 26 ao 36 Preto",
+      "imgurl": "/src/Roupas-Categorias/Calcados/10.webp",
+      "descrição": "Tênis Infantil em PU com Plaquinha Metálica Molekinha - Tam 26 ao 36 Preto",
+      "preco": 144.90,
+      "categoria": "calcado",
+      "quantidade": 12
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "d03c",
+      "idUser": "bfc1",
+      "valorTotal": 20,
+      "itens": [
+        {
+          "idProduto": "faba",
+          "quantidade": 2
+        }
+      ]
+    }
+  ]
+}
